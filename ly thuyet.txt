@@ -1,0 +1,29 @@
+- Array: mang trong php
+	- Array bao gom 2 thanh
+		- key: la chi so cua array, chay tu 0 den n
+		- value: la gia tri tuong ung voi phan tu thu key
+	- Mot so cach dinh nghia array:
+		- $tenbien = array();
+			- $tenbien[0] = giatri1;
+			- tenbien[1] = giatri2;
+			- tenbien[] = giatri; -> khi do key se tu dong tang len 1 don vi
+		- $tenbien = array(giatri1,giatri2,giatr3...);
+		- $tenbien = array("tenkey"=>giatri1,"tenkey"=>giatri2...)
+	- Dem so luong phan tu trong array: count($tenbien)
+	- Duyet cac phan tu trong array
+		- foreach($tenbien as $key=>$value){}
+		- foreach($tenbien as $value){}
+		- foreachforeach($tenbien as $key=>$value):
+			code
+		  endforeach;
+		- foreachforeach($tenbien as $value):
+			code
+		  endforeach;
+	- ham print_r(bien) se hien thi cau truc cua array
+	- ham extract(bien) se bien key thanh ten bien tro den value
+	- ham exploder(ky tu can cat, chuoi) se cat string thanh array
+	- Ham imploder(tenbien,tag ghep) se ghep array thanh string
+- Ham include("duong dan file") -> load noi dung cua mot file khac vao file hien tai
+- Ham include_one("duong dan file") -> load noi dung cua mot file khac vao file hien tai
+- Ham require("duong dan file") -> load noi dung cua mot file khac vao file hien tai
+- Ham require_once("duong dan file") -> load noi dung cua mot file khac vao file hien tai
